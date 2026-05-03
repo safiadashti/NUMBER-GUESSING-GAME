@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="game-container">
-   <h1>Number Guessing Game</h1>
+   <h1  class="zoom">Number Guessing Game</h1>
    <p>Guess a number between 1 and 100</p>
    <input type="number" placeholder="Guess the number" id="number">
    <button id="check">Check</button>
+     <p>Score: <span id="score">20</span></p>
+  <p>High Score: <span id="highscore">0</span></p>
    <p id="result"></p>
    <button id="restart" style="display: none;">Restart</button>
     </div>

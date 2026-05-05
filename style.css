@@ -36,7 +36,7 @@ h1 {
       text-shadow: 10px 10px 5px #164E7E ;
 }
 .zoom {
-  animation: zoomIn 2.5s ease-in-out;
+  animation: zoomIn 3.0s ease-in-out;
 }
 
 @keyframes zoomIn {
